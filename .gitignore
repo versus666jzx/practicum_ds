@@ -1,7 +1,8 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 /help
-/module*/data
+/*reserch*/data/*
+
 
 *.py[cod]
 *$py.class
