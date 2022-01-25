@@ -2,6 +2,7 @@
 __pycache__/
 /help
 /*reserch*/data/*
+/*analisys*/data/*
 
 
 *.py[cod]
