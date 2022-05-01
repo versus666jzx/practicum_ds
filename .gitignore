@@ -4,6 +4,7 @@ __pycache__/
 /*analisys*/data/*
 .idea/*
 .vscode/*
+venv
 
 *.py[cod]
 *$py.class
