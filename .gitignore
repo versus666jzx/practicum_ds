@@ -6,6 +6,8 @@ __pycache__/
 .vscode/*
 venv
 
+/17_sprint_CV_age determination/appa-real-release/
+
 *.py[cod]
 *$py.class
 
@@ -133,3 +135,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
