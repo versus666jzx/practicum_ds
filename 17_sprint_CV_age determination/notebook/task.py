@@ -25,8 +25,7 @@ def load_train(path):
 
 
 def create_model(input_shape):
-    optimizer = Adam(lr=0.03)
-    backbone = ResNet50(input_shape=(150, 150, 3),
+    backbone = ResNet50(input_shape=input_shape,
                         weights='/datasets/keras_models/resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5',
                         include_top=False)
     model = Sequential()
