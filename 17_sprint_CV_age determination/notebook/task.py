@@ -40,7 +40,6 @@ def create_model(input_shape):
 def train_model(model, train_data, test_data, epochs=5, batch_size=16,
                 steps_per_epoch=None, validation_steps=None):
     model.fit(train_data,
-              batch_size=batch_size,
               validation_data=test_data,
               epochs=epochs,
               steps_per_epoch=steps_per_epoch,
