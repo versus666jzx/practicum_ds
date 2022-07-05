@@ -38,7 +38,7 @@ def create_model(input_shape):
     return model
 
 
-def train_model(model, train_data, test_data, epochs=5, batch_size=16,
+def train_model(model, train_data, test_data, epochs=8, batch_size=16,
                 steps_per_epoch=None, validation_steps=None):
 
     model.fit(train_data,
